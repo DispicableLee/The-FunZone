@@ -1,0 +1,25 @@
+{
+    "My Favorite Drugs": [
+        {
+        "name": "Marijuana",
+        "fun-score": "6 - 9",
+        "comment": "make snoop proud"
+    },
+        {
+        "name": "Alcohol",
+        "fun-score": "-10 - 10",
+        "comment": "your milage may vary"
+    },
+    {
+        "name": "Acid",
+        "fun-score": "-20 - 10",
+        "comment": "be careful of a bad trip"
+    }
+],
+    "Favorite Playlists": [
+        {
+            "name": "Decadence",
+            "spotify-url": ""
+        }
+    ]
+}
