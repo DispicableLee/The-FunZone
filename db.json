@@ -1,29 +1,87 @@
 {
-    "My-Favorite-Drugs": [
+    "products": [
         {
         "name": "Marijuana",
-        "fun-score": "6 - 9",
-        "comment": "make snoop proud"
+        "price": "10",
+        "image": "marijuana-cartoon-vector-illustration-72949157.jpg",
+        "inventory": "1000",
+        "Origin": "Colorado"
     },
         {
-        "name": "Alcohol",
-        "fun-score": "-10 - 10",
-        "comment": "your milage may vary"
+        "name": "Baking Soda",
+        "price": "70",
+        "image": "Baking-soda-clipart-kid.jpg",
+        "inventory": "1000",
+        "Origin": "Colombia"
     },
     {
-        "name": "Acid",
-        "fun-score": "-20 - 10",
-        "comment": "be careful of a bad trip"
+        "name": "Sunnies",
+        "price": "10",
+        "image": "33-331838_medicine-pill-icon-transparent-background-pills-clipart-hd.png",
+        "inventory": "1000",
+        "Origin": "Switzerland"
     },
     {
-        "name": "Magic Shrooms",
-        "fun-score": "8 - 9"
+        "name": "Shiitake",
+        "price": "30",
+        "image": "shiitake-mushroom-thumbs-up-cartoon-illustration-mascot-149399926.jpg",
+        "inventory": "1000",
+        "Origin": "Canada"
+    },
+    {
+        "name": "Heisenberg Blue",
+        "price": "80",
+        "image": "311-3119977_heisenberg-png-transparent-png.png",
+        "inventory": "1000",
+        "Origin": "Albaquerque"
+    },
+    {
+        "name": "Cotton Balls",
+        "price": "30",
+        "image": "288-2885429_cotton-balls-in-plastic-cup-cotton-balls-clipart.png",
+        "inventory": "1000",
+        "Origin": "Connecticut"
+    },
+    {
+        "name": "Keto Diet Supplement",
+        "price": "25",
+        "image": "keto-diet-pills-great-design-260nw-1806982420.webp",
+        "inventory": "1000",
+        "Origin": "Detroit"
+    },
+    {
+        "name": "Muscle Gainer",
+        "price": "75",
+        "image": "imgbin-dietary-supplement-bodybuilding-supplement-gainer-weight-gain-lean-body-mass-others-WWzCmGR4rEjrZc8guNptjqBit_t.jpg",
+        "inventory": "1000",
+        "Origin": "Russia"
+    },
+    {
+        "name": "Melatonin Alt",
+        "price": "10",
+        "image": "88832098-sleeping-pills-color-icon-soporific-isolated-vector-illustration.webp",
+        "inventory": "1000",
+        "Origin": "Michigan"
     }
-],
-    "Favorite Playlists": [
-        {
-            "name": "Decadence",
-            "spotify-url": ""
-        }
-    ]
+]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Message Nick Fears
+
+
+
