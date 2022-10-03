@@ -1,25 +1,66 @@
 {
-    "My Favorite Drugs": [
+    "": [
         {
         "name": "Marijuana",
-        "fun-score": "6 - 9",
-        "comment": "make snoop proud"
+        "price": "10",
+        "image": "",
+        "inventory": "1000",
+        "Origin": "Colorado"
     },
         {
-        "name": "Alcohol",
-        "fun-score": "-10 - 10",
-        "comment": "your milage may vary"
+        "name": "Baking Soda",
+        "price": "70",
+        "inventory": "1000",
+        "Origin": "Colombia"
     },
     {
         "name": "Acid",
-        "fun-score": "-20 - 10",
-        "comment": "be careful of a bad trip"
+        "price": "10",
+        "image": "",
+        "inventory": "1000",
+        "Origin": "Switzerland"
+    },
+    {
+        "name": "Magic Mushrooms",
+        "price": "30",
+        "image": "",
+        "inventory": "1000",
+        "Origin": "Canada"
+    },
+    {
+        "name": "Meth",
+        "price": "80",
+        "image": "",
+        "inventory": "1000",
+        "Origin": "Albaquerque"
+    },
+    {
+        "name": "OxyContin",
+        "price": "30",
+        "image": "",
+        "inventory": "1000",
+        "Origin": "Connecticut"
+    },
+    {
+        "name": "Ketamine",
+        "price": "25",
+        "image": "",
+        "inventory": "1000",
+        "Origin": "Detroit"
+    },
+    {
+        "name": "Steroids",
+        "price": "75",
+        "image": "",
+        "inventory": "1000",
+        "Origin": "Russia"
+    },
+    {
+        "name": "Xanax",
+        "price": "10",
+        "image": "",
+        "inventory": "1000",
+        "Origin": "Michigan"
     }
-],
-    "Favorite Playlists": [
-        {
-            "name": "Decadence",
-            "spotify-url": ""
-        }
-    ]
+]
 }
