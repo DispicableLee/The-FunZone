@@ -1,64 +1,65 @@
 {
-    "": [
+    "products": [
         {
         "name": "Marijuana",
         "price": "10",
-        "image": "",
+        "image": "marijuana-cartoon-vector-illustration-72949157.jpg",
         "inventory": "1000",
         "Origin": "Colorado"
     },
         {
         "name": "Baking Soda",
         "price": "70",
+        "image": "Baking-soda-clipart-kid.jpg",
         "inventory": "1000",
         "Origin": "Colombia"
     },
     {
         "name": "Sunnies",
         "price": "10",
-        "image": "",
+        "image": "33-331838_medicine-pill-icon-transparent-background-pills-clipart-hd.png",
         "inventory": "1000",
         "Origin": "Switzerland"
     },
     {
         "name": "Shiitake",
         "price": "30",
-        "image": "",
+        "image": "shiitake-mushroom-thumbs-up-cartoon-illustration-mascot-149399926.jpg",
         "inventory": "1000",
         "Origin": "Canada"
     },
     {
-        "name": "Meth",
+        "name": "Heisenberg Blue",
         "price": "80",
-        "image": "",
+        "image": "311-3119977_heisenberg-png-transparent-png.png",
         "inventory": "1000",
         "Origin": "Albaquerque"
     },
     {
-        "name": "OxyContin",
+        "name": "Cotton Balls",
         "price": "30",
-        "image": "",
+        "image": "288-2885429_cotton-balls-in-plastic-cup-cotton-balls-clipart.png",
         "inventory": "1000",
         "Origin": "Connecticut"
     },
     {
-        "name": "Ketamine",
+        "name": "Keto Diet Supplement",
         "price": "25",
-        "image": "",
+        "image": "keto-diet-pills-great-design-260nw-1806982420.webp",
         "inventory": "1000",
         "Origin": "Detroit"
     },
     {
-        "name": "Steroids",
+        "name": "Muscle Gainer",
         "price": "75",
-        "image": "",
+        "image": "imgbin-dietary-supplement-bodybuilding-supplement-gainer-weight-gain-lean-body-mass-others-WWzCmGR4rEjrZc8guNptjqBit_t.jpg",
         "inventory": "1000",
         "Origin": "Russia"
     },
     {
-        "name": "Xanax",
+        "name": "Melatonin Alt",
         "price": "10",
-        "image": "",
+        "image": "88832098-sleeping-pills-color-icon-soporific-isolated-vector-illustration.webp",
         "inventory": "1000",
         "Origin": "Michigan"
     }
