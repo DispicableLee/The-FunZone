@@ -1,3 +1,4 @@
+const info = document.getElementById("info-list")
 const infoDisplayed = document.getElementById("info-displayed")
 document.addEventListener("DOMContentLoaded", (e)=>{
     const form = document.querySelector(".form-info")
@@ -17,12 +18,16 @@ document.addEventListener("DOMContentLoaded", (e)=>{
                 const inventory = json[i].inventory;
                 const origin = json[i].origin;
 //=========================== declaring html elements in DOM ============================
-                
+                const newLi = document.createElement("li")
+                const nameH1 = document.createElement("h1")
                     nameH1.innerText = name;
-                    inventoryH2.textContent = inventory;
-                    originH3.textContent = origin;
-                    priceH4.textContent = price;
-
+//======================= info-displayed event listener =======================================
+                nameH1.addEventListener("click", (e)=>{
+                    e.preventDefault();
+                    
+                })
+                newLi.append(nameH1)
+                info.append(newLi)
 
                 }
             })
