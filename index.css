@@ -2,7 +2,6 @@ body{
     margin:0
 }
 #heading{
-    background: green;
     height: 95px;
     Display: flex;
     flex-direction: row;
@@ -11,6 +10,8 @@ body{
     left: 0px;
     right: 0px;
     top: 0px;
+    border: solid;
+    border-color: black;
     
 }
 nav{
@@ -22,7 +23,7 @@ nav{
     nav ul{
         flex:1;
         display: flex;
-        justify-content: right
+        justify-content: center
     }
     nav ul li{
         display: inline-block;
@@ -45,4 +46,52 @@ nav{
          border-style: solid;
          border-color: black;
          }
+         #all{
+          
+            position: relative;
+            z-index: 30;
+        }
+        .info{
+            display: flex;
+            flex: 1;
+            justify-content: space-between;             
+        }
+       
+        ul li{
+            font-size: 12px;
+            cursor: pointer;
+        }
+        #info-list{
+         text-align: left;
+         align-self: center;
+         margin-bottom: 160px;
+         margin-left: -5px;
+        }
+        .info-header{
+        font-family: Arial;
+        
+           
+         }
+        #info-displayed{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-right: 30px;
+            align-items: center;
+        }
+        #display-image{
+            width: 280px;
+            height: 280px;
+            border-style: solid;
+            border-color: black;
+        }
+
+     .info-container{
+        width: 50%;
+        position: relative;
+        bottom: 123px;
+        left: 20px;
+     }
+
+
         
