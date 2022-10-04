@@ -69,7 +69,6 @@ nav{
        
         ul li{
             font-size: 12px;
-            cursor: pointer;
         }
         #info-list{
          text-align: left;
@@ -78,8 +77,11 @@ nav{
          margin-left: -5px;
          color:var(--secondary-color)
         }
-         li:hover{
-            color:#ff4321;}
+        li:hover{
+            color:#ff4321;
+            cursor: pointer;
+        }
+            
         
         .info-header{
         font-family: Arial;
@@ -117,6 +119,6 @@ nav{
         margin-right: 30px;
         cursor: pointer;
      }
-
+     
 
         
