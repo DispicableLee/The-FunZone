@@ -3,82 +3,65 @@
         {
         "name": "Marijuana",
         "price": "10",
-        "image": "marijuana-cartoon-vector-illustration-72949157.jpg",
+        "image": "https://thumbs.dreamstime.com/b/marijuana-cartoon-vector-illustration-72949157.jpg",
         "inventory": "1000",
         "Origin": "Colorado"
     },
         {
         "name": "Baking Soda",
         "price": "70",
-        "image": "Baking-soda-clipart-kid.jpg",
+        "image": "https://clipartix.com/wp-content/uploads/2016/10/Baking-soda-clipart-kid.jpg",
         "inventory": "1000",
         "Origin": "Colombia"
     },
     {
         "name": "Sunnies",
         "price": "10",
-        "image": "33-331838_medicine-pill-icon-transparent-background-pills-clipart-hd.png",
+        "image": "https://www.kindpng.com/picc/m/33-331838_medicine-pill-icon-transparent-background-pills-clipart-hd.png",
         "inventory": "1000",
         "Origin": "Switzerland"
     },
     {
         "name": "Shiitake",
         "price": "30",
-        "image": "shiitake-mushroom-thumbs-up-cartoon-illustration-mascot-149399926.jpg",
+        "image": "https://thumbs.dreamstime.com/z/shiitake-mushroom-thumbs-up-cartoon-illustration-mascot-149399926.jpg",
         "inventory": "1000",
         "Origin": "Canada"
     },
     {
         "name": "Heisenberg Blue",
         "price": "80",
-        "image": "311-3119977_heisenberg-png-transparent-png.png",
+        "image": "https://www.pngitem.com/pimgs/m/311-3119977_heisenberg-png-transparent-png.png",
         "inventory": "1000",
         "Origin": "Albaquerque"
     },
     {
         "name": "Cotton Balls",
         "price": "30",
-        "image": "288-2885429_cotton-balls-in-plastic-cup-cotton-balls-clipart.png",
+        "image": "https://www.kindpng.com/picc/m/288-2885429_cotton-balls-in-plastic-cup-cotton-balls-clipart.png",
         "inventory": "1000",
         "Origin": "Connecticut"
     },
     {
         "name": "Keto Diet Supplement",
         "price": "25",
-        "image": "keto-diet-pills-great-design-260nw-1806982420.webp",
+        "image": "https://image.shutterstock.com/image-vector/keto-diet-pills-great-design-260nw-1806982420.jpg",
         "inventory": "1000",
         "Origin": "Detroit"
     },
     {
         "name": "Muscle Gainer",
         "price": "75",
-        "image": "imgbin-dietary-supplement-bodybuilding-supplement-gainer-weight-gain-lean-body-mass-others-WWzCmGR4rEjrZc8guNptjqBit_t.jpg",
+        "image": "https://us.123rf.com/450wm/rumkavodki/rumkavodki2206/rumkavodki220600368/187978271-mass-gainer-supplement-in-plastic-jar-flat-vector-illustration-isolated-.jpg?ver=6",
         "inventory": "1000",
         "Origin": "Russia"
     },
     {
         "name": "Melatonin Alt",
         "price": "10",
-        "image": "88832098-sleeping-pills-color-icon-soporific-isolated-vector-illustration.webp",
+        "image": "https://thumbs.dreamstime.com/b/melatonin-hormone-made-pineal-gland-frequently-taken-to-alleviate-difficulty-falling-staying-asleep-bottle-pills-158325872.jpg",
         "inventory": "1000",
         "Origin": "Michigan"
     }
 ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
