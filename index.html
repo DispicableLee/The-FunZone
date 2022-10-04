@@ -6,7 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div id ="all">
+<header id = "heading">
+    <nav>
+        <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>Support</li>
+        <li>About Us</li>
+
+        </ul>
+    </nav>
+    <img id = "profile-img" src ="">
+
+</header>
+<div class = 'info'>
+<ul id="info-list">
+
+</ul>
+</div>
+<div id = "info-displayed">
+    <h1 id="display-name"></h1>
+    <img id="display-image" src="" alt="">
+    <h2 id="display-price"></h2>
+    <h3 id="display-inventory"></h3>
+    <h4 id="display-origin"></h4>
+</div>
+<div class = "form-amount">
+    <h4>Total Amount: <span id="amount-x">Amount</span></h4>
+    <form class ="item-form">
+   <input  
+   type="text"
+   name="quantity"
+   value=""
+   placeholder="Amount Desired"
+   class="quantity-amount">
+   <input type="submit" value="Add To Cart" />
+    </form>
+</div>
+<div class = "info-container">
+    <form class = 'form-info'>
+    <input type="text" name="first-name" value="" placeholder="First Name" id="input-first-name">
+    <input type="text" name="last-name" value="" placeholder="Last Name" id="input-last-name">
+    <input type="text" name="email" value="" placeholder="Email" id="input-email">
+    <input type="text" name="phone" value="" placeholder="Phone Number" id="input-phone">
+    <input type="text" name="Card-name" value="" placeholder="Card Name" id="input-card-name">
+    <input type="text" name="Card-number" value="" placeholder="Card Number" id="input-card-number">
+    <input type="text" name="Card-expiration" value="" placeholder="Card Expiration" id="input-card-expiration">
+    <input type="text" name="Card-security" value="" placeholder="CCV" id="input-card-security">
+    <input type="submit" value="Buy" />
+    </form>
+</div>
+</div>
+
+
+    <script src="src/index.js"></script>
 </body>
 </html>
