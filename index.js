@@ -6,6 +6,7 @@ const displayPrice = document.getElementById("display-price")
 const displayInventory = document.getElementById("display-inventory")
 const displayOrigin = document.getElementById("display-origin")
 const form = document.querySelector(".form-info")
+var icon = document.getElementById("icon");
 document.addEventListener("DOMContentLoaded", (e)=>{
     console.log(form)
     // ================================= json-server --watch db.json ===============================
@@ -56,6 +57,22 @@ document.addEventListener("DOMContentLoaded", (e)=>{
 
 
 })
+
+//=========================== "light/dark mode" evetn listener =====================================   
+icon.addEventListener('click',(e) =>{
+    e.preventDefault();
+icon.onclick = function(){
+    document.body.classList.toggle("dark-mode");
+    if(document.body.classList.contains("dark-mode")){
+        icon.src ="images/sun.png";
+    }else{
+        icon.src = "images/moon.png";
+    }
+}}
+)
+
+
+
 
 
                 
