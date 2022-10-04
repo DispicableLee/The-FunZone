@@ -1,5 +1,10 @@
 const info = document.getElementById("info-list")
 const infoDisplayed = document.getElementById("info-displayed")
+const displayName = document.getElementById("display-name")
+const displayImage = document.getElementById("display-image")
+const displayPrice = document.getElementById("display-price")
+const displayInventory = document.getElementById("display-inventory")
+const displayOrigin = document.getElementById("display-origin")
 document.addEventListener("DOMContentLoaded", (e)=>{
     const form = document.querySelector(".form-info")
     console.log(form)
@@ -24,7 +29,8 @@ document.addEventListener("DOMContentLoaded", (e)=>{
 //======================= info-displayed event listener =======================================
                 nameH1.addEventListener("click", (e)=>{
                     e.preventDefault();
-                    
+                    displayImage.textContent = name
+                    displayPrice.textContent = price
                 })
                 newLi.append(nameH1)
                 info.append(newLi)
