@@ -58,4 +58,17 @@ document.addEventListener("DOMContentLoaded", (e)=>{
 })
 
 
+//=========================== "light/dark mode" evetn listener =====================================   
+icon.addEventListener('click',(e) =>{
+    e.preventDefault();
+icon.onclick = function(){
+    document.body.classList.toggle("dark-mode");
+    if(document.body.classList.contains("dark-mode")){
+        icon.src ="images/sun.png";
+    }else{
+        icon.src = "images/moon.png";
+    }
+}}
+)
+
 //comment
