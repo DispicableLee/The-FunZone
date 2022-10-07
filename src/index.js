@@ -57,7 +57,38 @@ form.addEventListener("submit", (e) => {
     console.log("i have been clicked")
     alert("THIS IS THE DEA\r\nYou have been caught!")
 })
+//============================ new-drugs-form event listener ==============================
+const newDrugsForm = document.getElementById("new-drugs-form")
+newDrugsForm.addEventListener("submit", (e)=>{
+    e.preventDefault()
+//====================== creating constants from form ================================
+    const newDrugName = e.target["name"].value
+    const newDrugImage = e.target["image"].value
+    const newDrugPrice = e.target["price"].value
+    const newDrugInventory = e.target["inventory"].value
+    const newDrugOrigin = e.target["origin"].value
+//=================================== configObj ========================================
+    const configObj = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            accept: "application/json"
+        },
+        body: JSON.stringify({
+            "name": newDrugName,
+            "price": newDrugPrice,
+            "image": newDrugImage,
+            "inventory": newDrugInventory,
+            "origin": newDrugOrigin
+        })
 
+    }
+//====================================== fetch ========================================
+    fetch("http://localhost:3000/products", configObj)
+    .then(res=>res.json())
+    .then(console.log)
+
+})
 
 
 
