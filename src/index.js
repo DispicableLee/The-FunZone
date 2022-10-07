@@ -79,7 +79,7 @@ newDrugsForm.addEventListener("submit", (e)=>{
             "price": newDrugPrice,
             "image": newDrugImage,
             "inventory": newDrugInventory,
-            "origin": newDrugOrigin
+            "Origin": newDrugOrigin
         })
 
     }
